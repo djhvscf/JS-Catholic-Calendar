@@ -75,9 +75,13 @@
 
         request.onload = function() {
             if (request.status >= 200 && request.status < 400) {
-                success(JSON.parse(request.responseText));
+                if (success !== undefined) {
+                    success(JSON.parse(request.responseText));
+                }
             } else {
-                error();
+                if (error !== undefined) {
+                    error();
+                }
             }
         };
 
