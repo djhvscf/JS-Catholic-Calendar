@@ -1,0 +1,28 @@
+{
+    "name": "catholic-calendar",
+    "version": "1.0.0",
+    "title": "Catholic Calendar",
+    "description": "This plugin is focus on https://github.com/igneus/church-calendar-api. No jQuery.",
+    "author": {
+        "name": "Dennis Heránadez Vargas",
+        "email": "djhv92@hotmail.com",
+        "url": "http://djhvscf.github.io/Blog"
+    },
+    "licenses": [
+        {
+            "type": "MIT License",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        
+    },
+    "keywords": ["catholic-calendar.javascript"],
+    "homepage": "https://github.com/djhvscf/JS-Catholic-Calendar",
+    "demo": "",
+    "bugs": {
+        "url": "https://github.com/djhvscf/JS-Catholic-Calendar/issues"
+    },
+    "docs": "https://github.com/djhvscf/JS-Catholic-Calendar",
+    "download": "https://github.com/djhvscf/JS-Catholic-Calendar/releases"
+}
